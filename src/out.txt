@@ -1,0 +1,688 @@
+[*] Loading targets...
+[*] Fetching and Parsing targets...
+Task 0 done!
+Task 1 done!
+Task 2 done!
+Task 3 done!
+Task 4 done!
+Task 5 done!
+Task 6 done!
+Task 7 done!
+Task 8 done!
+Task 9 done!
+Task 10 done!
+Task 11 done!
+Task 12 done!
+Task 13 done!
+Task 14 done!
+Task 15 done!
+Task 16 done!
+Task 17 done!
+Task 18 done!
+Task 19 done!
+Task 20 done!
+Task 21 done!
+Task 22 done!
+Task 23 done!
+Task 24 done!
+Task 25 done!
+Task 26 done!
+Task 27 done!
+Task 28 done!
+Task 29 done!
+Task 30 done!
+Task 31 done!
+Task 32 done!
+Task 33 done!
+Task 34 done!
+Task 35 done!
+Task 36 done!
+Task 37 done!
+Task 38 done!
+Task 39 done!
+Task 40 done!
+Task 41 done!
+Task 42 done!
+Task 43 done!
+Task 44 done!
+Task 45 done!
+Task 46 done!
+Task 47 done!
+Task 48 done!
+Task 49 done!
+Task 50 done!
+Task 51 done!
+Task 52 done!
+Task 53 done!
+Task 54 done!
+Task 55 done!
+Task 56 done!
+Task 57 done!
+Task 58 done!
+Task 59 done!
+Task 60 done!
+Task 61 done!
+Task 62 done!
+Task 63 done!
+Task 64 done!
+Task 65 done!
+Task 66 done!
+Task 67 done!
+Task 68 done!
+Task 69 done!
+Task 70 done!
+Task 71 done!
+Task 72 done!
+Task 73 done!
+Task 74 done!
+Task 75 done!
+Task 76 done!
+Task 77 done!
+Task 78 done!
+Task 79 done!
+Task 80 done!
+Task 81 done!
+Task 82 done!
+Task 83 done!
+Task 84 done!
+Task 85 done!
+Task 86 done!
+Task 87 done!
+Task 88 done!
+Task 89 done!
+Task 90 done!
+Task 91 done!
+Task 92 done!
+Task 93 done!
+Task 94 done!
+Task 95 done!
+Task 96 done!
+Task 97 done!
+Task 98 done!
+Task 99 done!
+Task 100 done!
+Task 101 done!
+Task 102 done!
+Task 103 done!
+Task 104 done!
+Task 105 done!
+Task 106 done!
+Task 107 done!
+Task 108 done!
+Task 109 done!
+Task 110 done!
+Task 111 done!
+Task 112 done!
+Task 113 done!
+Task 114 done!
+Task 115 done!
+Task 116 done!
+Task 117 done!
+Task 118 done!
+Task 119 done!
+Task 120 done!
+Task 121 done!
+Task 122 done!
+Task 123 done!
+Task 124 done!
+Task 125 done!
+Task 126 done!
+Task 127 done!
+Task 128 done!
+Task 129 done!
+Task 130 done!
+Task 131 done!
+Task 132 done!
+Task 133 done!
+Task 134 done!
+Task 135 done!
+Task 136 done!
+Task 137 done!
+Task 138 done!
+Task 139 done!
+Task 140 done!
+Task 141 done!
+Task 142 done!
+Task 143 done!
+Task 144 done!
+Task 145 done!
+Task 146 done!
+Task 147 done!
+Task 148 done!
+Task 149 done!
+Task 150 done!
+Task 151 done!
+Task 152 done!
+Task 153 done!
+Task 154 done!
+Task 155 done!
+Task 156 done!
+Task 157 done!
+Task 158 done!
+Task 159 done!
+Task 160 done!
+Task 161 done!
+Task 162 done!
+Task 163 done!
+Task 164 done!
+Task 165 done!
+Task 166 done!
+Task 167 done!
+Task 168 done!
+Task 169 done!
+Task 170 done!
+Task 171 done!
+Task 172 done!
+Task 173 done!
+Task 174 done!
+Task 175 done!
+Task 176 done!
+Task 177 done!
+Task 178 done!
+Task 179 done!
+Task 180 done!
+Task 181 done!
+Task 182 done!
+Task 183 done!
+Task 184 done!
+Task 185 done!
+Task 186 done!
+Task 187 done!
+Task 188 done!
+Task 189 done!
+Task 190 done!
+Task 191 done!
+Task 192 done!
+Task 193 done!
+Task 194 done!
+Task 195 done!
+Task 196 done!
+Task 197 done!
+Task 198 done!
+Task 199 done!
+Task 200 done!
+Task 201 done!
+Task 202 done!
+Task 203 done!
+Task 204 done!
+Task 205 done!
+Task 206 done!
+Task 207 done!
+Task 208 done!
+Task 209 done!
+Task 210 done!
+Task 211 done!
+Task 212 done!
+Task 213 done!
+Task 214 done!
+Task 215 done!
+Task 216 done!
+Error: [Errno 104] Cannot connect to host www.angeloni.com.br:443 ssl:True [Can not connect to www.angeloni.com.br:443 [Connection reset by peer]]
+URL: https://www.angeloni.com.br/eletro/p/micro-ondas-panasonic-32l-style-nn-st654wru-branco-3624386
+
+Task 217 done!
+Task 218 done!
+Task 219 done!
+Task 220 done!
+Task 221 done!
+Task 222 done!
+Task 223 done!
+Task 224 done!
+Task 225 done!
+Task 226 done!
+Task 227 done!
+Task 228 done!
+Task 229 done!
+Task 230 done!
+Task 231 done!
+Task 232 done!
+Task 233 done!
+Task 234 done!
+Task 235 done!
+Task 236 done!
+Error: 
+URL: https://www.belezanaweb.com.br/lancome-perfume-feminino-la-vie-est-belle-eau-de-parfum
+
+Task 237 done!
+Task 238 done!
+Task 239 done!
+Task 240 done!
+Task 241 done!
+Task 242 done!
+Task 243 done!
+Task 244 done!
+Task 245 done!
+Task 246 done!
+Task 247 done!
+Task 248 done!
+Task 249 done!
+Task 250 done!
+Task 251 done!
+Task 252 done!
+Task 253 done!
+Task 254 done!
+Task 255 done!
+Task 256 done!
+Task 257 done!
+Task 258 done!
+Task 259 done!
+Task 260 done!
+Task 261 done!
+Task 262 done!
+Task 263 done!
+Task 264 done!
+Task 265 done!
+Task 266 done!
+Task 267 done!
+Task 268 done!
+Task 269 done!
+Task 270 done!
+Task 271 done!
+Task 272 done!
+Task 273 done!
+Task 274 done!
+Task 275 done!
+Task 276 done!
+Task 277 done!
+Task 278 done!
+Task 279 done!
+Task 280 done!
+Task 281 done!
+Task 282 done!
+Task 283 done!
+Task 284 done!
+Task 285 done!
+Task 286 done!
+Task 287 done!
+Task 288 done!
+Task 289 done!
+Task 290 done!
+Task 291 done!
+Task 292 done!
+Task 293 done!
+Task 294 done!
+Task 295 done!
+Task 296 done!
+Task 297 done!
+Task 298 done!
+Task 299 done!
+Task 300 done!
+Task 301 done!
+Task 302 done!
+Task 303 done!
+Task 304 done!
+Task 305 done!
+Task 306 done!
+Task 307 done!
+Task 308 done!
+Task 309 done!
+Task 310 done!
+Task 311 done!
+Error: 
+URL: https://www.walmart.com.br/processador-de-alimentos-kitchenaid-kja13asana-3-em-1-280w-21l-silver/2138071/pr
+
+Error: 
+URL: https://www.fastshop.com.br/loja/processador-de-alimento-philips-walita-viva-02-velocidades-preto-ri7632-fast
+
+Error: 
+URL: https://www.submarino.com.br/produto/115605641/conversor-e-gravador-digital-aquario-dtv-8000
+
+Task 312 done!
+Task 313 done!
+Task 314 done!
+Task 315 done!
+Task 316 done!
+Task 317 done!
+Task 318 done!
+Task 319 done!
+Task 320 done!
+Task 321 done!
+Task 322 done!
+Task 323 done!
+Task 324 done!
+Task 325 done!
+Task 326 done!
+Task 327 done!
+Task 328 done!
+Task 329 done!
+Task 330 done!
+Task 331 done!
+Task 332 done!
+Task 333 done!
+Task 334 done!
+Task 335 done!
+Task 336 done!
+Task 337 done!
+Task 338 done!
+Task 339 done!
+Task 340 done!
+Task 341 done!
+Task 342 done!
+Task 343 done!
+Task 344 done!
+Task 345 done!
+Task 346 done!
+Task 347 done!
+Task 348 done!
+Task 349 done!
+Task 350 done!
+Task 351 done!
+Task 352 done!
+Task 353 done!
+Task 354 done!
+Task 355 done!
+Task 356 done!
+Task 357 done!
+Task 358 done!
+Task 359 done!
+Task 360 done!
+Task 361 done!
+Task 362 done!
+Task 363 done!
+Task 364 done!
+Task 365 done!
+Task 366 done!
+Task 367 done!
+Task 368 done!
+Task 369 done!
+Task 370 done!
+Task 371 done!
+Task 372 done!
+Task 373 done!
+Task 374 done!
+Task 375 done!
+Task 376 done!
+Task 377 done!
+Task 378 done!
+Task 379 done!
+Task 380 done!
+Task 381 done!
+Task 382 done!
+Task 383 done!
+Task 384 done!
+Task 385 done!
+Task 386 done!
+Task 387 done!
+Task 388 done!
+Task 389 done!
+Task 390 done!
+Task 391 done!
+Task 392 done!
+Task 393 done!
+Task 394 done!
+Task 395 done!
+Task 396 done!
+Task 397 done!
+Task 398 done!
+Task 399 done!
+Task 400 done!
+Task 401 done!
+Task 402 done!
+Task 403 done!
+Task 404 done!
+Task 405 done!
+Task 406 done!
+Task 407 done!
+Task 408 done!
+Task 409 done!
+Task 410 done!
+Task 411 done!
+Task 412 done!
+Task 413 done!
+Task 414 done!
+Task 415 done!
+Task 416 done!
+Task 417 done!
+Task 418 done!
+Task 419 done!
+Task 420 done!
+Task 421 done!
+Task 422 done!
+Task 423 done!
+Task 424 done!
+Task 425 done!
+Task 426 done!
+Task 427 done!
+Task 428 done!
+Task 429 done!
+Task 430 done!
+Task 431 done!
+Task 432 done!
+Task 433 done!
+Task 434 done!
+Task 435 done!
+Task 436 done!
+Task 437 done!
+Error: 
+URL: http://www.efacil.com.br/loja/produto/projetor-s313lcd-powerlite-svga-hdmi-3000-lumens-bivolt-epson-2308395/
+
+Error: 
+URL: http://www.efacil.com.br/loja/produto/projetor-x29-3lcd-power-lite-xga-hdmi-3000-lumens-bivolt-epson-2308073/
+
+Error: 
+URL: https://www.walmart.com.br/moedor-de-cafe-dcg-20-cuisinart-130w-ate-70g-preto-110v/3289915/prhttp://www.magazineluiza.com.br/torradeira-kitchenaid-cinza-kjc02afana-7-niveis-de-tostagem-funcao-descongelar/p/2111003/ep/tost/
+
+Error: 
+URL: https://www.walmart.com.br/refrigerador-brastemp-inverse-422l-127v-duplex-platinum-frost-free-bre50nk/3743497/pr
+
+Error: 
+URL: https://www.walmart.com.br/tablet-galaxy-tab-e-t116bu-branco-tela-7-3g-wifi-android-4-4-camera-2mp-memoria-8gb-samsung/4829782/pr
+
+Error: 
+URL: https://www.walmart.com.br/dvd-player-sony-dvp-sr370-entrada-usb-frontal-leitor-mp3-preto/2033200/pr
+
+Error: 
+URL: https://www.walmart.com.br/tablet-m7s-quad-core-teclado-multilaser-nb196/4301585/pr
+
+Error: 
+URL: https://www.submarino.com.br/produto/124738306/geladeira-refrigerador-brastemp-inverse-frost-free-bre50nk-422l-evox
+
+Error: 
+URL: https://www.walmart.com.br/tablet-samsung-galaxy-tab-e-tela-9-6-android-4-4-8gb-wi-fi-branco-processador-quad-core-1-3ghz/3332769/pr
+
+Error: 
+URL: https://www.submarino.com.br/produto/123021119/tablet-samsung-galaxy-tab-e-t560-8gb-wi-fi-tela-9.6-android-4.4-quad-core-preto
+
+Error: 
+URL: https://www.submarino.com.br/produto/129083601/tablet-lenoxx-tb-5400-p-8gb-wi-fi-tela-7-android-entrada-usb-quad-core-preto
+
+Error: 
+URL: https://www.walmart.com.br/monitor-led-aoc-15-6-preto-e1670swu/2033628/pr
+
+Error: 
+URL: https://www.walmart.com.br/tablet-multilaser-m7-3g-quad-core-tela-7-8gb-de-memoria-dual-chip-wi-fi-preto-nb223/5075917/pr
+
+Error: 
+URL: https://www.walmart.com.br/tablet-lenoxx-tb-5400-branco-tela-7-8gb-wi-fi-camera-vga-frontal-e-traseira-android-5-1/5244127/pr
+
+Error: 
+URL: https://www.submarino.com.br/produto/122533964/tablet-samsung-galaxy-tab-e-t116-8gb-wi-fi-3g-tela-7-android-4.4-processador-quad-core-1.3ghz-branco
+
+Error: 
+URL: https://www.carrefour.com.br/Bicicleta-Infantil-Caloi-Aro-16-1-Marcha-Hot-Wheels-Preta/p/9526595
+
+Error: 
+URL: https://www.carrefour.com.br/Projetor-Epson-S27-2700-Lumens-SVGA-Contraste-10-000-1-com-Entradas-HDMI-VGA-e-USB-Bivolt/p/9860150
+
+Error: 
+URL: https://www.walmart.com.br/liquidificador-trapeze-colors-1-5l-350w-roxo-liq352-cadence/3377168/pr
+
+Error: 
+URL: https://www.walmart.com.br/notebook-asus-intel-core-i3-4gb-1tb-z450la-wx009t-14-windows-10-preto/3587612/pr
+
+Error: 
+URL: https://www.walmart.com.br/bicicleta-nic-houston/3820899/pr
+
+Error: 
+URL: https://www.submarino.com.br/produto/7395363/roteador-wireless-150mbps-tl-wr740n-tp-link
+
+Error: 
+URL: https://www.submarino.com.br/produto/117292051/webcam-plugeplay-pink-piano-wc048-multilaser
+
+Error: 
+URL: https://www.walmart.com.br/liquidificador-diamond-vermelho-kitchenaid/4184100/pr
+
+Error: 
+URL: https://www.walmart.com.br/bicicleta-aro-20-ceci-branca-caloi/4423078/pr
+
+Error: 
+URL: https://www.submarino.com.br/produto/127115104/smartphone-motorola-moto-g4-plus-dual-chip-android-6.0-tela-5.5-32gb-camera-16mp-preto
+
+Error: 
+URL: https://www.submarino.com.br/produto/125568775/bicicleta-feminina-caloi-ceci-aro-20-modelo-2016-branca
+
+Error: 
+URL: https://www.submarino.com.br/produto/126902309/roteador-wireless-tp-link-tl-wr720n-150mbps-2-portas
+
+Error: 
+URL: https://www.submarino.com.br/produto/123959570/cacheador-ceramic-magic-curls-bivolt-philco
+
+Error: 
+URL: https://www.submarino.com.br/produto/127990734/lavadora-de-roupas-brastemp-11kg-bws11-cesto-smart-wave-branco
+
+Error: 
+URL: https://www.submarino.com.br/produto/124526194/notebook-asus-z450la-wx010t-intel-core-i3-4gb-1tb-tela-led-14-windows-10-vermelho
+
+Error: 
+URL: https://www.carrefour.com.br/Notebook-Asus-Intel-Core-i3-4GB-1TB-Windows-10-Home-Tela-14-Serie-Z-Z450LAWX010T-Vermelho/p/9782605
+
+Error: 
+URL: https://www.walmart.com.br/bicicleta-hot-wheels-aro-16-preta-caloi/2516382/pr
+
+Error: 
+URL: https://www.walmart.com.br/web-cam-720p-3-megapixels-microfone-c270hd-logitech/4086229/pr
+
+Error: 
+URL: https://www.walmart.com.br/webcam-5mp-com-flash-led-e-microfone-embutido-wc040-multilaser/3584454/pr
+
+Error: 
+URL: https://www.walmart.com.br/bicicleta-caloi-montana-aro-26-tamanho-18/4399224/pr
+
+Error: 
+URL: https://www.walmart.com.br/smartphone-motorola-moto-g-4-geracao-plus-preto-dual-chip-tela-5-5-32gb-cam-16mp-android-6-0/5355236/pr
+
+Error: 
+URL: http://www.casasbahia.com.br/TelefoneseCelulares/Smartphones/Android/smartphone-samsung-galaxy-s8-plus-preto-com-64gb-tela-6-2-android-7-0-4g-reconhecimento-de-iris-camera-12mp-dual-pixel-e-processador-octa-core-11482056.html
+
+Error: 
+URL: https://www.carrefour.com.br/Liquidificador-Cadence-Colors-LIQ354220-Jarra-de-Plastico-1-5L-350W-4-Velocidades-Amarelo-220V/p/9880771
+
+Error: 
+URL: https://www.lojasnext.com.br/Roteador-Wireless-TP-Link-150Mbps-TL-WR740N
+
+Error: 
+URL: http://www.pontofrio.com.br/Eletroportateis/omeleteira/Omeleteira-Britania-Duo-Plus-BRO2-47944.html
+
+Error: 
+URL: http://www.extra.com.br/audio/MicroeMiniSystem/mini-system-philips-ntx600x-78-com-mp3-bluetooth-duplo-usb-e-ripping-2-200-w-5538231.html
+
+Error: 
+URL: http://www.kalunga.com.br/prod/monitor-led-15-6-widescreen-e1670swu-aoc/477005
+
+Error: 
+URL: http://www.kalunga.com.br/prod/monitor-led-25-ips-ultrawide-25um58-lg/477102
+
+Error: 
+URL: http://www.strar.com.br/batedeira-stand-mixer-artisan-empire-red-kitchenaid.html
+
+Error: 
+URL: http://www.magazineluiza.com.br/batedeira-planetaria-kitchenaid-artisan-stand-mixer-300w-10-velocidades/p/2160068/ep/bapl/
+
+Error: 
+URL: https://www.submarino.com.br/produto/128335467/smart-tv-led-49-lg-49uh6100-ultra-hd-4k-com-conversor-digital-wi-fi-integrado-3-hdmi-1-usb-60hz-com-webos-3.0
+
+Error: 
+URL: http://www.shoptime.com.br/produto/128335467/smart-tv-led-49-lg-49uh6100-ultra-hd-4k-com-conversor-digital-wi-fi-integrado-3-hdmi-1-usb-60hz-com-webos-3.0
+
+Error: 
+URL: https://www.submarino.com.br/produto/119934644/frigobar-consul-crc08-80-litros-branco
+
+Error: 
+URL: http://www.osapoeaprincesa.com.br/mochila-zoo-porco-espinho-skip-hop-p1430/
+
+Error: 
+URL: http://www.efacil.com.br/loja/produto/multifuncional-xp-241-expression-jato-de-tinta-colorida-bivolt-epson-2308729/
+
+Error: 
+URL: http://www.efacil.com.br/loja/produto/teclado-e-mouse-s-fio-tc162-24ghz-usb-1000dpi-preto-multilaser-2308644/
+
+Error: 
+URL: https://www.walmart.com.br/projetor-epson-powerlite-s27-2700-ansi-lumens-svga-contraste-10-000-1-3lcd-hdmi-wireless-ready-branco/3835935/pr
+
+Error: 
+URL: http://www.pontofrio.com.br/Informatica/EquipamentosdeRedeWireless/Roteadores/Roteador-e-Repetidor-D-Link-DIR-615-Wireless-N-300Mbps-com-2-Antenas-5dBi-2948338.html
+
+Error: 
+URL: https://www.submarino.com.br/produto/120485858/roteador-wireless-d-link-dir-615-n-300mbps-duas-antenas-5dbi-modo-repetidor
+
+Error: 
+URL: http://www.dbestshop.com.br/roteador-wireless-300mbps-dir-615-preto-d-link-e54829/p
+
+Error: 
+URL: https://www.walmart.com.br/roteador-wireless-dir-615n-300mbps-d-link-dir-615/3876196/pr
+
+Error: 
+URL: http://www.efacil.com.br/loja/produto/roteador-wireless-tl-wr740n-150mbps-4-portas-antena-5-dbi-wps-tp-link-2307986/
+
+Task 438 done!
+Task 439 done!
+Task 440 done!
+Task 441 done!
+Task 442 done!
+Task 443 done!
+Task 444 done!
+Task 445 done!
+Task 446 done!
+Task 447 done!
+Task 448 done!
+Task 449 done!
+Task 450 done!
+Task 451 done!
+Task 452 done!
+Task 453 done!
+Task 454 done!
+Task 455 done!
+Task 456 done!
+Task 457 done!
+Task 458 done!
+Task 459 done!
+Task 460 done!
+Task 461 done!
+Task 462 done!
+Task 463 done!
+Task 464 done!
+Task 465 done!
+Task 466 done!
+Task 467 done!
+Task 468 done!
+Task 469 done!
+Task 470 done!
+Task 471 done!
+Task 472 done!
+Task 473 done!
+Task 474 done!
+Task 475 done!
+Task 476 done!
+Task 477 done!
+Task 478 done!
+Task 479 done!
+Task 480 done!
+Task 481 done!
+Task 482 done!
+Task 483 done!
+Task 484 done!
+Task 485 done!
+Task 486 done!
+Task 487 done!
+Task 488 done!
+Task 489 done!
+Task 490 done!
+Task 491 done!
+Task 492 done!
+Task 493 done!
+Task 494 done!
+Task 495 done!
+Task 496 done!
+Task 497 done!
+[*] Writing results...
+[*] New data is available...
