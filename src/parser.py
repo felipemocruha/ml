@@ -59,6 +59,10 @@ def extract_table(soup):
     return product_info
 
 
+def extract_title(soup):
+    return soup.find('title').get_text().replace('\n', ' ')
+
+
 def parse_page(page):
     soup = get_soup(page)
     meta = extract_meta(soup)
