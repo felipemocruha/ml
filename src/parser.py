@@ -65,7 +65,9 @@ def extract_title(soup):
 
 def parse_page(page):
     soup = get_soup(page)
+    title = remove_accents(sanitize_string(extract_title(soup))).lower()
     meta = extract_meta(soup)
+    meta.append({'title': title})
     table = extract_table(soup)
     payload = {}
     if meta:

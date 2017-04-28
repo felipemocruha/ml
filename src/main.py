@@ -9,6 +9,12 @@ from cytoolz import *
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath('.'))
+error_pages = []
+
+
+def len_parsed(domain):
+    with open('../data/{}/parsed_data.json'.format(domain),'r') as f:
+        return (domain, len(json.loads(f.read())['products']))
 
 
 def is_domain(domain, url):
@@ -41,6 +47,7 @@ async def fetch_and_parse(url, data):
         if page:
             data.append(parse_page(page))
     except Exception as err:
+        error_pages.append(url)
         print('Error: {}\nURL: {}\n'.format(err, url))
 
 
@@ -50,8 +57,6 @@ async def worker(targets, data, counter):
 
     for task in tasks:
         await task
-        print('{} - Task {} done!'.format(domain.upper(), counter))
-        counter += 1
 
 
 def main(pair):
@@ -74,26 +79,35 @@ def main(pair):
 
 if __name__ == '__main__':
     with open(os.path.join(ROOT_DIR, 'data', 'targets.txt'), 'r') as f:
-        all_urls = set([url for url in f.readlines()])
+        all_urls = set([url[:-1] for url in f.readlines()])
 
     all_domains = set([urlparse(url).netloc for url in all_urls])
 
-    # domain_filter = ['www.americanas.com.br','www.casasbahia.com.br',
-    #              'www.extra.com.br','www.magazineluiza.com.br',
-    #              'www.pontofrio.com.br','www.shoptime.com.br',
-    #              'www.submarino.com.br','www.walmart.com.br']
-    domain_filter = ['www.casasbahia.com.br','www.extra.com.br',
-                     'www.pontofrio.com.br', 'www.walmart.com.br']
+    domain_filter1 = ['www.americanas.com.br', 'www.shoptime.com.br',
+                      'www.submarino.com.br']
+
+    domain_filter2 = ['www.casasbahia.com.br','www.extra.com.br',
+                      'www.pontofrio.com.br', 'www.walmart.com.br',
+                      'www.magazineluiza.com.br']
+
+    domain_filter = domain_filter1 + domain_filter2
 
     domains = [extract_domain_name(url) for url in domain_filter]
     links = [(domain, get_domain_urls(domain, all_urls)) for domain in domain_filter]
 
-    # write links in separate files
-    for link in links:
-        domain_name = extract_domain_name(link[0])
-        file_name = os.path.join(ROOT_DIR, 'data', domain_name, '{}_urls'.format(domain_name))
-        write_domain_links(file_name, link[1])
 
     # execute main for each shop
     with ThreadPoolExecutor(max_workers=len(links)) as ex:
         tasks = as_completed([ex.submit(main, pair) for pair in links])
+
+    with open('../data/error_urls', 'w') as f:
+        f.writelines(error_pages)
+
+    print('[*] Results:')
+    print([len_parsed(domain) for domain in domains])
+
+    # # write links in separate files
+    # for link in links:
+    #     domain_name = extract_domain_name(link[0])
+    #     file_name = os.path.join(ROOT_DIR, 'data', domain_name, '{}_urls'.format(domain_name))
+    #     write_domain_links(file_name, link[1])
