@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from nltk.tokenize import word_tokenize
 from urllib.parse import urlparse
 from unicodedata import normalize
-
+from cytoolz import *
 
 def tokenize_url(url):
     path = urlparse(url).path
@@ -19,9 +19,8 @@ def remove_accents(input_str):
 
 
 def sanitize_string(input_str):
-    pattern = r'[?|&|!|@|#|;|*|~|(|)|´|^]'
-    input_str = re.sub(pattern, r'', remove_accents(input_str.lower()))
-    return input_str
+    pattern = r'[?|&|!|@|#|;|*|~|(|)|´|^|\r|\n|\t]'
+    return clean_string(re.sub(pattern, r'', remove_accents(input_str.lower())))
 
 
 def match_keywords(meta):
@@ -63,9 +62,31 @@ def extract_title(soup):
     return soup.find('title').get_text().replace('\n', ' ')
 
 
+def clean_string(input_str):
+    input_str = input_str.replace('.', ' ').replace(',', ' ')
+
+    unuseful = set(['confira', 'compre', 'oferta', 'novo',
+                    'preco', 'agora', 'melhores', 'aqui',
+                    'aproveite', 'menor', 'maior', 'encontra',
+                    'site', 'condicoes', 'ofertas', 'imbativeis',
+                    'vendas', 'online', 'novo', 'nova', 'tecnologia',
+                    'precos', 'pagamento', 'melhor', 'veja', 'encontre',
+                    'menores', 'vem', 'venha', 'ver'])
+
+    names = set(['walmart', 'walmart.com', 'shoptime', 'shoptime.com',
+                 'pontofrio', 'pontofrio.com', 'magazineluiza', 'magazineluiza.com',
+                 'magazine luiza', 'americanas', 'americanas.com', 'submarino',
+                 'submarino.com', 'extra', 'extra.com.br', 'casas bahia', 'casasbahia.com.br'])
+
+    stopwords = [remove_accents(s) for s in nltk.corpus.stopwords.words('portuguese')]
+    repl = list(concat([unuseful, names, stopwords]))
+    tk = word_tokenize(input_str)
+    return ' '.join([word for word in tk if word not in repl])
+
+
 def parse_page(page):
     soup = get_soup(page)
-    title = remove_accents(sanitize_string(extract_title(soup))).lower()
+    title = sanitize_string(extract_title(soup))
     meta = extract_meta(soup)
     meta.append({'title': title})
     table = extract_table(soup)

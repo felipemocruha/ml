@@ -90,14 +90,15 @@ if __name__ == '__main__':
                       'www.pontofrio.com.br', 'www.walmart.com.br',
                       'www.magazineluiza.com.br']
 
-    domain_filter = domain_filter1 + domain_filter2
+    #domain_filter = domain_filter1 + domain_filter2
+    domain_filter = ['www.walmart.com.br']
 
     domains = [extract_domain_name(url) for url in domain_filter]
     links = [(domain, get_domain_urls(domain, all_urls)) for domain in domain_filter]
 
 
     # execute main for each shop
-    with ThreadPoolExecutor(max_workers=len(links)) as ex:
+    with ThreadPoolExecutor(max_workers=4) as ex:
         tasks = as_completed([ex.submit(main, pair) for pair in links])
 
     with open('../data/error_urls', 'w') as f:

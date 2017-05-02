@@ -10,9 +10,9 @@ UA_LIST = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 
 
 async def fetch(url):
-    await asyncio.sleep(randint(1,5))
+    await asyncio.sleep(randint(3,5))
     headers = {'User-Agent': choice(UA_LIST)}
-    with aiohttp.TCPConnector(limit_per_host=20) as conn:
+    with aiohttp.TCPConnector(limit_per_host=30) as conn:
         with async_timeout.timeout(60):
             async with aiohttp.request('GET', url,
                                        headers=headers, connector=conn) as response:
