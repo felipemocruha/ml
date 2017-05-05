@@ -53,8 +53,8 @@ def main(url, final):
 
 if __name__ == '__main__':
     base_url = 'http://www.buscape.com.br/xprocura?kw=&eid={}&pagina={}'
-    eid = 81
-    pages = set([base_url.format(eid, randint(1,24000)) for i in range(400)])
+    eid = 125
+    pages = set([base_url.format(eid, randint(1,24000)) for i in range(500)])
 
     final = []
     with ThreadPoolExecutor(max_workers=50) as ex:
@@ -62,6 +62,6 @@ if __name__ == '__main__':
 
     products = list(concat([final]))
     print('[*] Writing results...')
-    with open('../data/americanas/buscape.json', 'w') as f:
+    with open('../data/shoptime/buscape.json', 'w') as f:
         f.writelines(json.dumps({'products': products}))
     print('[*] New data is available!')
