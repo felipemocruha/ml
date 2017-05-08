@@ -53,15 +53,15 @@ def main(url, final):
 
 if __name__ == '__main__':
     base_url = 'http://www.buscape.com.br/xprocura?kw=&eid={}&pagina={}'
-    eid = 125
-    pages = set([base_url.format(eid, randint(1,24000)) for i in range(500)])
+    eid = 255256
+    pages = set([base_url.format(eid, randint(1,45000)) for i in range(700)])
 
     final = []
-    with ThreadPoolExecutor(max_workers=50) as ex:
+    with ThreadPoolExecutor(max_workers=70) as ex:
         tasks = as_completed([ex.submit(main, url, final) for url in pages])
 
     products = list(concat([final]))
     print('[*] Writing results...')
-    with open('../data/shoptime/buscape.json', 'w') as f:
+    with open('../data/walmart/buscape.json', 'w') as f:
         f.writelines(json.dumps({'products': products}))
     print('[*] New data is available!')
